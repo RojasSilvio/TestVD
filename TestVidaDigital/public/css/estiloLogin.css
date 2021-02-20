@@ -1,0 +1,78 @@
+body{
+  background-image: url(../img/VD-SLIDER.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/*-------------------------------------------------------------------------------*/
+.tras_narbar{
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+.formulario{
+  background: rgba(0,0,0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.568) ;
+  color:#fff;
+}
+.form-control{
+  background-color: rgba(255,255,255,.75);
+  
+  border-style: none;
+  transition: 0.2s ease-in;
+  outline: none;
+  box-shadow: none;
+  color: #555;
+}
+
+.form-control::placeholder{
+  color: #555;
+}
+/*-------------------------------------------------------------------------------*/
+/*Boton Login*/
+.ingresar{
+  background: #ff4530;
+  width: 100%;
+  border-style: none;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 700 ;
+  color: #fff;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.568) ;
+}
+/*-----------------------------------------------------------------*/
+/*olvide contraseña y registrarse*/
+.olvide{
+  color: #fff;
+  text-decoration-style: none;
+  text-decoration-line: none;
+}
+.olvide:hover{
+  color: #ff4530;
+  text-decoration-style: none;
+  text-decoration-line: none; 
+  cursor: pointer;
+}
+.olvide1{
+  color: #fff;
+  text-decoration-style: none;
+  text-decoration-line: none;
+  font-size: 20px;
+  font-weight: 700!important;
+}
+.olvide1:hover{
+  color: #ff4530;
+  text-decoration-style: none;
+  text-decoration-line: none; 
+  cursor: pointer;
+}
+/*--------------------------------------------------------------------------------*/
+/*validacion*/
+.error{
+ 
+  width: 300px;
+  text-align: center;
+  margin: auto;
+  color: red;
+  padding-top: 20px;
+}
